@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv=require("dotenv");
 //Install express to create a server
 const app = express();
-dotenv.config({path:"./DBConfig.env"})
+// dotenv.config({path:"./DBConfig.env"})
 //Install Nodemon to automayically restart te server when there's a change in file
 // Alter the start script in Package.json to start from app.js using "start": "nodemon app.js"
 const dbURL=process.env.DB_URL;
